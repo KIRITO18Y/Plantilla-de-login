@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>OPTic</title>
+</head>
+<body>
+
+  <div>
+
+    <div class="flex justify-center items-center h-screen bg-gray-100">    
+   
+        <form class="bg-white p-9 rounded-lg shadow-md w-1/3 max-w-90 grid gap-9">
+    
+            <h2 class="text-6xl font-bold mb-4 text-center">
+                <span>OP<span class="text-blue-500">Tic</span> 
+            </h2>
+            <div>
+                <label for="email" class="block text-gray-400 text-sm font-bold mb-2">Usuario</label>
+                <div class="relative">
+                    <span class="absolute inset-y-0 left-0 pl-3 flex items-center text-gray-500">
+                        <div class="absolute top-1 left-1 bg-white-medium rounded-full p-2 flex items-center justify-center text--300">
+                            <i class="fa-solid fa-envelope-open"></i>
+                        </div>
+                        
+                    </span>
+                    <input type="email" id="email" class="w-full px-10 py-2 border border-gray-700 rounded-md placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="Correo electronico">
+                </div>
+            </div>
+    
+            <div>
+                <label for="password" class="block text-gray-400 text-sm font-bold mb-2">Contraseña</label>
+                <div class="relative">
+                    <span class="absolute inset-y-0 left-0 pl-3 flex items-center text-gray-500">
+                        <div class="absolute top-1 left-1 bg-white-medium rounded-full p-2 flex items-center justify-center text--300">
+                            <i class="fa-solid fa-lock"></i>
+                        </div>              
+                    </span>
+                    <input type="password" id="password" class="w-full px-10 py-2 border border-gray-700 rounded-md placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="Contraseña">
+                </div>
+            </div>
+    
+    
+            <div class="flex items-center justify-between">
+                <div class="flex items-center">
+               
+                    
+                    <input type="checkbox" id="remember" class="form-checkbox h-4 w-4 text-blue-500">
+                    <label for="remember" class="ml-2 text-sm ">Recordar Sesión</label>
+                </div>
+            </div>
+    
+            <button type="submit" class="w-full py-2 px-4 bg-blue-500 hover:bg-blue-600 text-white font-bold rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500">
+                Ingresar
+            </button>
+    
+            <div class=" text-sm text- hover:text-blue-500">
+             <span><a href="">Olvidaste la contraseña</a> </span>   
+      </div>
+
+  </div>
+
+    
+</body>
+</html>
+
+
+
+
+
+
+
